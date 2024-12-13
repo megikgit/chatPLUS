@@ -21,7 +21,7 @@ def site():
 
 
     # Messages    
-    username = pywebio.input.input(label= "Enter username: ", placeholder= "Sigma_boi1488")
+    username = pywebio.input.input(label= "Username area", placeholder= "Sigma_boi1488")
     input_area = pywebio.input.input(placeholder="Enter message Example: \"Hello\"", label="Message area")
     text_msg = pywebio.output.put_text(main_text, position = pywebio.output.OutputPosition.TOP)
     
